@@ -1,0 +1,71 @@
+/*
+	Layout ~ CSS
+	
+	Licensed under GPL and MIT.
+*/
+
+/* =General
+----------------------------------------------------------------------------*/
+body {
+    padding:46px 20px 20px;
+}
+/* =Masthead
+----------------------------------------------------------------------------*/
+
+/* =Nav
+----------------------------------------------------------------------------*/
+.demo_nav_block {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:36px;
+    width:100%;
+    background:rgb(0, 0, 0);
+    background:rgba(0, 0, 0, .8);
+}
+
+.demo_nav {
+    list-style:none;
+    height:36px;
+    line-height:35px;
+    padding-left:10px;
+}
+
+.demo_nav li {
+    display:inline;
+    margin-right:10px;
+}
+
+/* =Content
+----------------------------------------------------------------------------*/
+/*For the IE8 Print Demo*/
+#print_me {
+    background:rgb(222, 177, 150);
+    background:rgba(222, 177, 150, 0.5);
+    width:400px;
+    margin-left:10px;
+    padding:20px;
+}
+
+#print_me p {
+    background:rgb(165, 189, 67);
+    background:rgba(165, 189, 67, .5);
+    padding:10px;
+    margin-bottom:0;
+    color:rgb(49, 87, 37);
+    color:rgba(49, 87, 37, 1);
+}
+
+#print_link {
+    margin-top:20px;
+}
+
+/* =Footer
+----------------------------------------------------------------------------*/
+
+/* =Tables
+----------------------------------------------------------------------------*/
+
+/* =Tabs
+----------------------------------------------------------------------------*/
